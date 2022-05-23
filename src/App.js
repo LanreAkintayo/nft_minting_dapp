@@ -186,7 +186,7 @@ function App() {
                 <h1 className="font-bold text-2xl">Total</h1>
                 <h1 className="font-medium text-2xl">
                   {properties.price ? (
-                    `${toDecimal(currentPrice, 3)} BNB}`
+                    `${toDecimal(currentPrice, 3)} BNB`
                   ) : (
                     <Loader />
                   )}
